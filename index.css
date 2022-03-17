@@ -1,0 +1,28 @@
+body {
+    background-color: #FFF0F5;
+}
+
+#title {
+    color: #B22222;
+    text-align: center;
+}
+
+#img-blue {
+    float: left;
+    width: 100%;
+}
+
+#frase1 {
+    color: #B22222;
+    text-align: center;
+}
+
+#voce-gostou {
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.check {
+    color: #1C1C1C;
+    text-align: center;
+}
