@@ -6,28 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="index.css">
-    <title>Meu primeiro site</title>
-
+    <title>New Project</title>
 </head>
 
+
 <head>
+
     <body>
         <div>
-            <h1 class="title" id="title">Meu primeiro site</h1></p>
-            <label class="frase1" id="frase1">Bom esse é meu primeiro site<br>espero que goste!</label><br/></p>
+            <h1 class="title" id="title">New Project</h1>
+            </p>
         </div>
 
-
-        <div>
-            <label for="html" id="voce-gostou"><strong>Você gostou?</strong></label><br/></p>
+        <div class="frase1">
+            <label id="frase1"><strong>Esse é meu primeiro site, espero que goste!</strong></label></p>
         </div>
 
-        <div>
-            <input value="option" class="check-y" type="radio" id="option" name="sim">Sim<br />
+        <div class="you-liked">
+            <label id="you-liked">Se você gostou?</label></p>
         </div>
 
-        <div>
-            <input value="option" class="check-n" type="radio" id="option" name="nao">Não<br />
+        <div class="check-option">
+            <input value="sim" type="radio" name="radio" id="yes">Sim
+
+            <input value="nao" type="radio" name="radio" id="no">Não
+        </div>
+        </p>
+
+        <div class="text-area">
+            <label class="write-something" id="write">Deixe alguma sugestão.</label></p>
+        </div>
+
+        <div class="text-area">
+            <textarea rows="7" style="width: 26em" id="write-a-text" name="write-text"></textarea></p>
+            <button style="width: 10em" clas="suggestion" id="suggestion">Enviar sugestão</button>
         </div>
     </body>
 </head>
