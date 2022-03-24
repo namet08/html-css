@@ -1,0 +1,22 @@
+body {
+  background-color: #fff0f5;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  color: #b22222;
+  text-align: center;
+  font-style: italic;
+}
+
+.you-liked {
+  color: #000000;
+  text-align: center;
+  font-style: italic;
+}
+
+.text-area {
+  color: #000000;
+  text-align: center;
+}
