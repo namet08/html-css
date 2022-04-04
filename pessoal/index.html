@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Estilizando formulário</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
-    <title>New Project</title>
-    <meta name="description" content="new-Project">
-    <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-    <div class="title">
-        <h1 id="title">New Project</h1>
-        </p>
-    </div>
-
-    <div class="you-liked">
-        <label for="txtFirstSite" id="frase1">Esse é meu primeiro site, 
-            espero que goste!</label></p>
-        <h id="you-liked">Você gostou?</h>
-        </p>
-        <input value="sim" type="radio" name="radio" id="yes">Sim
-        <input value="nao" type="radio" name="radio" id="no">Não
-        </p>
-        <label class="write-something" id="write">Deixe uma sugestão.</label>
-    </div>
-
-    </p>
-    <div class="text-area">
-        <textarea rows="7" style="width: 26em" id="write-a-text" name="write-text"></textarea></p>
-        <button style="width: 10em" clas="suggestion" id="suggestion">Enviar sugestão</button>
-    </div>
-</body>
-
+  <head>
+    <body>
+      <header>
+        <h1>Meu formulário de contato</h1>
+      </header>
+      <section>
+        <form>
+          <div>
+            <label class="name">Nome</label>
+            <input
+              type="email"
+              placeholder="Digite seu nome"
+              name="nome"
+              required
+            />
+          </div>
+          <div>
+            <label class="telefone">Telefone</label>
+            <input
+              type="password"
+              placeholder="Digite seu telefone"
+              name="telefone"
+              required
+            />
+          </div>
+          <div>
+            <label class="msg">Mensagem</label>
+            <textarea rows="10" name="msg" required></textarea>
+          </div>
+          <div class="sub">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </section>
+    </body>
+  </head>
 </html>
