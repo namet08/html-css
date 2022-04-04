@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <script src="behavior.js"></script>
     <title>Estilizando formulário</title>
-  </head>
+</head>
 
-  <head>
+<head>
+
     <body>
-      <header>
-        <h1>Meu formulário de contato</h1>
-      </header>
-      <section>
-        <form>
-          <div>
-            <label class="name">Nome</label>
-            <input
-              type="email"
-              placeholder="Digite seu nome"
-              name="nome"
-              required
-            />
-          </div>
-          <div>
-            <label class="telefone">Telefone</label>
-            <input
-              type="password"
-              placeholder="Digite seu telefone"
-              name="telefone"
-              required
-            />
-          </div>
-          <div>
-            <label class="msg">Mensagem</label>
-            <textarea rows="10" name="msg" required></textarea>
-          </div>
-          <div class="sub">
-            <input type="submit" value="Enviar" />
-          </div>
-        </form>
-      </section>
+        <header>
+            <h1>Meu formulário de contato</h1>
+        </header>
+        <section>
+            <form>
+                <div>
+                    <label class="name">Nome</label>
+                    <input type="email" placeholder="Digite seu nome" name="nome" required />
+                </div>
+                <div>
+                    <label class="telefone">Telefone</label>
+                    <input type="tel" placeholder="Digite seu telefone" name="telefone" required />
+                </div>
+                <div>
+                    <label class="msg">Mensagem</label>
+                    <textarea rows="10" name="msg" required></textarea>
+                </div>
+                <div class="sub">
+                    <input type="submit" value="Enviar" onclick="receiveName()" />
+                </div>
+            </form>
+        </section>telefone
     </body>
-  </head>
+</head>
+
 </html>
